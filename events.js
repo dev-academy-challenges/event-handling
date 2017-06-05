@@ -8,11 +8,7 @@ function start () {
   // when you mouse over it.
   one()
   two()
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> d47bfbba4c3a344feb7013257e3b26c06eaf3c7f
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -34,13 +30,11 @@ function two (){
 
   //Next, we add an event listener to it:
   two.addEventListener('mouseleave', makeGreen)
-<<<<<<< HEAD
-=======
 
   //Finally, we add one to make the colour white again
   two.addEventListener('mouseleave', makeWhite)
 }
->>>>>>> d47bfbba4c3a344feb7013257e3b26c06eaf3c7f
+
 
   //Finally, we add one to make the colour white again
   two.addEventListener('mouseleave', makeWhite)
@@ -65,7 +59,3 @@ function makeGreen (evt) {
 function makeWhite (evt) {
   evt.target.style.backgroundColor = 'white'
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> d47bfbba4c3a344feb7013257e3b26c06eaf3c7f
