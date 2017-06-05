@@ -29,7 +29,7 @@ function two () {
   var two = document.getElementById('two')
 
   //Next, we add an event listener to it:
-  two.addEventListener('mouseleave', makeGreen)
+  two.addEventListener('mouseenter', makeGreen)
 
   //Finally, we add one to make the colour white again
   two.addEventListener('mouseleave', makeWhite)
