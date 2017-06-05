@@ -24,7 +24,7 @@ function one () {
 }
 
 // CREATE FUNCTION two HERE
-function two (){
+function two () {
   //First, we have to find the delement:
   var two = document.getElementById('two')
 
@@ -35,10 +35,6 @@ function two (){
   two.addEventListener('mouseleave', makeWhite)
 }
 
-
-  //Finally, we add one to make the colour white again
-  two.addEventListener('mouseleave', makeWhite)
-}
 // CREATE FUNCTION three HERE
 
 // CREATE FUNCTION four HERE
