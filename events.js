@@ -39,13 +39,13 @@ function two () {
 // CREATE FUNCTION three HERE
 function three () {
   //First, we have to find the delement:
-  var two = document.getElementById('three')
+  var three = document.getElementById('three')
 
   //Next, we add an event listener to it:
-  two.addEventListener('mouseenter', makeOrange)
+  three.addEventListener('mouseenter', makeOrange)
 
   //Finally, we add one to make the colour white again
-  two.addEventListener('mouseleave', makeWhite)
+  three.addEventListener('mouseleave', makeWhite)
 }
 // CREATE FUNCTION four HERE
 
@@ -66,7 +66,7 @@ function makeWhite (evt) {
   evt.target.style.backgroundColor = 'white'
 }
 
-function makeGreen (evt) {
+function makeOrange (evt) {
   evt.target.style.backgroundColor = 'orange'
 }
 
